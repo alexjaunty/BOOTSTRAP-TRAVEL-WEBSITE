@@ -1,17 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
+     <!--Using bootstrap -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>build a website using Bootstrap </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+  
   </head>
   <body>
 
     <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo" width="80"/></a>
+          <a class="navbar-brand" href="#"><img src="logo.jpg" alt="logo"  width="80"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,16 +48,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="citynight.jpg" class="d-block w-100" alt="citynight">
+                <img id="firstimage" src="citynight.jpg" class="d-block w-100" alt="citynight">
             </div>
             <div class="carousel-item">
-                <img src="road.jpg" class="d-block w-100" alt="road">
+                <img id="secondimage" src="road.jpg" class="d-block w-100" alt="road">
             </div>
             <div class="carousel-item">
-                <img src="street.jpg" class="d-block w-100" alt="street">
+                <img id="thirdimage"  src="street.jpg" class="d-block w-100" alt="street">
             </div>
             <div class="carousel-item">
-              <img src="city.jpg" class="d-block w-100" alt="city">
+              <img id="fouthimage"  src="city.jpg" class="d-block w-100" alt="city">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -169,7 +173,7 @@
                 <button type="button" class="btn btn-primary btn-lg"><a href="mailto: alexjaunty1@gmail.com" class="text-white text-decoration-none">Contact us for more information</a></button>
             </div>
             <h2 class="fs-1 p-5 MT-5 mb-5 text-center">RELAX IN CANADA</h2>
-            <img src="vacation.jpg" alt="vacation" class="w-100  mb-5">
+            <img id="fifthimage" src="vacation.jpg" alt="vacation" class="w-100  mb-5">
     </div>
             <!--end of main container--> 
                

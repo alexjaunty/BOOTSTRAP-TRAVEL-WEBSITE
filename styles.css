@@ -1,0 +1,10 @@
+#firstimage , #secondimage , #thirdimage , #fouthimage , #fifthimage{
+    width: auto;
+    height: 600px;
+    object-fit: cover;
+  }
+  .carousel-indicators, .carousel-control-next-icon{
+    border: 600px;
+    background-color: rgb(225, 161, 11);
+  }
+  
